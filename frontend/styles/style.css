@@ -1,0 +1,43 @@
+.navbar {
+  background-color: #9D53FF;
+}
+
+.navbar-brand img {
+  max-height: 40px;
+}
+
+.signup-button {
+  background-color: white;
+  border: 0;
+  border-radius: 30px;
+  font-family: "source sans pro";
+  font-weight: normal;
+}
+
+.signin-button {
+  background-color: #FB9649;
+  border: 0;
+  border-radius: 30px;
+  font-family: "source sans pro";
+  font-weight: normal;
+}
+
+#hero {
+  height: 100vh;
+}
+
+#hero .hero-text h1 {
+  font-family: "playfair display";
+  font-size: 60px;
+}
+
+#hero .hero-text span {
+  color: #9D53FF;
+}
+
+#hero .hero-image img {
+  max-width: 100%;
+  max-height: 400px;
+  height: auto;
+}
+/*# sourceMappingURL=style.css.map */
