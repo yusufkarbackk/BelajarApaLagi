@@ -103,4 +103,20 @@
 .reason .reason-content p {
   font-family: "source sans pro";
 }
+
+.reason .btn-reason {
+  background-color: #FB9649;
+  font-family: "source sans pro";
+  border-radius: 30px;
+  border: 0;
+  font-weight: normal;
+}
+
+.footer-content li {
+  list-style: none;
+}
+
+.copyright {
+  font-size: 11px;
+}
 /*# sourceMappingURL=style.css.map */

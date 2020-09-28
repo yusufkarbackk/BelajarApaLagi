@@ -110,4 +110,22 @@ $playfair : "playfair display";
             font-family: $source;
         }
     }
+    .btn-reason{
+        background-color: $orange;
+        font-family: $source;
+        border-radius: 30px;
+        border: 0;
+        font-weight: normal;
+    }
+}
+
+.footer-content{
+
+    li{
+        list-style: none;
+    }
+}
+
+.copyright{
+    font-size: 11px;
 }
