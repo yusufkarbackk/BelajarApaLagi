@@ -76,13 +76,31 @@
   font-family: "playfair display";
   color: white;
   font-size: 24px;
-  margin-top: 75px;
+  margin-top: 45px;
 }
 
 .section-classes .card-class .btn-join {
   background-color: #FB9649;
   border-radius: 30px;
-  margin-top: 180px;
+  margin-top: 200px;
   font-weight: 400;
+}
+
+.reason .reason-heading {
+  font-family: "playfair display";
+  font-weight: bold;
+}
+
+.reason .reason-content img {
+  height: auto;
+  max-width: 100%;
+}
+
+.reason .reason-content h4 {
+  font-family: "playfair display";
+}
+
+.reason .reason-content p {
+  font-family: "source sans pro";
 }
 /*# sourceMappingURL=style.css.map */
