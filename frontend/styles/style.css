@@ -1,5 +1,5 @@
 .navbar {
-  background-color: #9D53FF;
+  background-color: #9d53ff;
 }
 
 .navbar-brand img {
@@ -15,7 +15,7 @@
 }
 
 .signin-button {
-  background-color: #FB9649;
+  background-color: #fb9649;
   border: 0;
   border-radius: 30px;
   font-family: "source sans pro";
@@ -32,7 +32,7 @@
 }
 
 #hero .hero-text span {
-  color: #9D53FF;
+  color: #9d53ff;
 }
 
 #hero .hero-image {
@@ -41,7 +41,7 @@
 }
 
 #hero .btn-hero {
-  background-color: #FB9649;
+  background-color: #fb9649;
   border-radius: 30px;
   font-family: "source sans pro";
   font-weight: normal;
@@ -51,8 +51,8 @@
 .section-classes-bg {
   min-height: 400px;
   margin-top: 100px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#C89DFF), to(#6E31BF));
-  background-image: linear-gradient(#C89DFF, #6E31BF);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#c89dff), to(#6e31bf));
+  background-image: linear-gradient(#c89dff, #6e31bf);
 }
 
 .section-classes-bg .section-classes-heading h2 {
@@ -80,7 +80,7 @@
 }
 
 .section-classes .card-class .btn-join {
-  background-color: #FB9649;
+  background-color: #fb9649;
   border-radius: 30px;
   margin-top: 200px;
   font-weight: 400;
@@ -105,7 +105,7 @@
 }
 
 .reason .btn-reason {
-  background-color: #FB9649;
+  background-color: #fb9649;
   font-family: "source sans pro";
   border-radius: 30px;
   border: 0;
@@ -118,5 +118,46 @@
 
 .copyright {
   font-size: 11px;
+}
+
+.details {
+  min-height: 100vh;
+}
+
+.details h4 {
+  font-family: "playfair display";
+  float: left;
+}
+
+.details .details-card {
+  float: left;
+  padding: 0;
+}
+
+.details .details-card img {
+  padding: 0;
+  height: auto;
+  max-width: 100%;
+}
+
+.details .details-card .what-you-get h5 {
+  font-family: "source sans pro";
+}
+
+.details .details-card .what-you-get p {
+  font-family: "source sans pro";
+}
+
+.details .join-card {
+  float: right;
+}
+
+.details .join-card .card-title {
+  background-color: #9d53ff;
+  min-height: 50px;
+}
+
+.details .join-card .card-title span {
+  font-family: "playfair display";
 }
 /*# sourceMappingURL=style.css.map */
