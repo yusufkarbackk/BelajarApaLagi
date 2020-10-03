@@ -192,4 +192,56 @@
 .details .join-card .btn:hover {
   background-color: #F27B21;
 }
+
+.checkout .checkout-header h2 {
+  font-family: "playfair display";
+}
+
+.checkout .checkout-illust img {
+  max-width: 100%;
+  height: auto;
+}
+
+.checkout .checkout-card .card-title {
+  font-family: "source sans pro";
+}
+
+.checkout .checkout-card ul li {
+  border: none;
+  font-family: "source sans pro";
+}
+
+.checkout .checkout-card ul li span {
+  font-weight: bold;
+}
+
+.checkout .checkout-card .bank-details {
+  height: 150px;
+}
+
+.checkout .checkout-card .bank-details .bank-item {
+  width: 50%;
+  float: right;
+}
+
+.checkout .checkout-card .bank-details .bank-item .bank-image {
+  float: left;
+}
+
+.checkout .checkout-card .bank-details .bank-item .bank-desc {
+  float: left;
+  margin-left: 15px;
+  font-family: "source sans pro";
+}
+
+.checkout .btn-pay {
+  background-color: #fb9649;
+  border: none;
+  font-family: "source sans pro";
+  border-radius: 30px;
+}
+
+.checkout .btn-pay:hover {
+  background-color: #F27B21;
+}
 /*# sourceMappingURL=style.css.map */

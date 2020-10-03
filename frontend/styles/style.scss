@@ -190,3 +190,55 @@ $playfair: "playfair display";
     }
   }
 }
+
+.checkout{
+  .checkout-header{
+    h2{
+      font-family: $playfair;
+    }
+  }
+  .checkout-illust{
+    img{
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  .checkout-card{
+    .card-title{
+      font-family: $source;
+    }
+    ul{
+      li{
+        border: none;
+        font-family: $source;
+        span{
+          font-weight: bold;
+        }
+      }
+    }
+    .bank-details{
+      height: 150px;
+      .bank-item{
+        width: 50%;
+        float: right;
+        .bank-image{
+          float: left;
+        }
+        .bank-desc{
+          float: left;
+          margin-left: 15px;
+          font-family: $source;
+        }
+      }
+    }
+  }
+  .btn-pay{
+    background-color:  $orange;
+    border: none;
+    font-family: $source;
+    border-radius: 30px;
+  }
+  .btn-pay:hover{
+    background-color:  #F27B21;
+  }
+}
