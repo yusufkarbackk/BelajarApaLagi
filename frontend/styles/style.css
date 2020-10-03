@@ -48,6 +48,10 @@
   font-size: 18px;
 }
 
+#hero .btn-hero:hover {
+  background-color: #f27b21;
+}
+
 .section-classes-bg {
   min-height: 400px;
   margin-top: 100px;
@@ -86,6 +90,10 @@
   font-weight: 400;
 }
 
+.section-classes .card-class .btn-join:hover {
+  background-color: #f27b21;
+}
+
 .reason .reason-heading {
   font-family: "playfair display";
   font-weight: bold;
@@ -110,6 +118,10 @@
   border-radius: 30px;
   border: 0;
   font-weight: normal;
+}
+
+.reason .btn-reason:hover {
+  background-color: #f27b21;
 }
 
 .footer-content li {
@@ -190,7 +202,7 @@
 }
 
 .details .join-card .btn:hover {
-  background-color: #F27B21;
+  background-color: #f27b21;
 }
 
 .checkout .checkout-header h2 {
@@ -242,6 +254,31 @@
 }
 
 .checkout .btn-pay:hover {
-  background-color: #F27B21;
+  background-color: #f27b21;
+}
+
+.success .success-image {
+  max-width: 100%;
+  height: auto;
+  width: 500px;
+}
+
+.success .success-text {
+  font-family: "source sans pro";
+}
+
+.success .success-text h2 {
+  font-size: 36px;
+}
+
+.success .btn-success {
+  background-color: #fb9649;
+  border-radius: 30px;
+  border: none;
+  font-family: "source sans pro";
+}
+
+.success .btn-success:hover {
+  background-color: #f27b21;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,5 +1,6 @@
 $purple: #9d53ff;
 $orange: #fb9649;
+$hover:  #f27b21;
 $source: "source sans pro";
 $playfair: "playfair display";
 
@@ -50,6 +51,9 @@ $playfair: "playfair display";
     font-weight: normal;
     font-size: 18px;
   }
+  .btn-hero:hover{
+    background-color: $hover;
+  }
 }
 
 .section-classes-bg {
@@ -86,6 +90,9 @@ $playfair: "playfair display";
       margin-top: 200px;
       font-weight: 400;
     }
+    .btn-join:hover{
+      background-color: $hover;
+    }
   }
 }
 
@@ -114,6 +121,9 @@ $playfair: "playfair display";
     border-radius: 30px;
     border: 0;
     font-weight: normal;
+  }
+  .btn-reason:hover{
+    background-color: $hover;
   }
 }
 
@@ -185,46 +195,46 @@ $playfair: "playfair display";
       font-size: 18px;
       border-radius: 30px;
     }
-    .btn:hover{
-      background-color: #F27B21;
+    .btn:hover {
+      background-color: #f27b21;
     }
   }
 }
 
-.checkout{
-  .checkout-header{
-    h2{
+.checkout {
+  .checkout-header {
+    h2 {
       font-family: $playfair;
     }
   }
-  .checkout-illust{
-    img{
+  .checkout-illust {
+    img {
       max-width: 100%;
       height: auto;
     }
   }
-  .checkout-card{
-    .card-title{
+  .checkout-card {
+    .card-title {
       font-family: $source;
     }
-    ul{
-      li{
+    ul {
+      li {
         border: none;
         font-family: $source;
-        span{
+        span {
           font-weight: bold;
         }
       }
     }
-    .bank-details{
+    .bank-details {
       height: 150px;
-      .bank-item{
+      .bank-item {
         width: 50%;
         float: right;
-        .bank-image{
+        .bank-image {
           float: left;
         }
-        .bank-desc{
+        .bank-desc {
           float: left;
           margin-left: 15px;
           font-family: $source;
@@ -232,13 +242,36 @@ $playfair: "playfair display";
       }
     }
   }
-  .btn-pay{
-    background-color:  $orange;
+  .btn-pay {
+    background-color: $orange;
     border: none;
     font-family: $source;
     border-radius: 30px;
   }
-  .btn-pay:hover{
-    background-color:  #F27B21;
+  .btn-pay:hover {
+    background-color: #f27b21;
+  }
+}
+
+.success{
+  .success-image{
+    max-width: 100%;
+    height: auto;
+    width: 500px;
+  }
+  .success-text{
+    font-family: $source;
+    h2{
+      font-size: 36px;
+    }
+  }
+  .btn-success{
+    background-color: $orange;
+    border-radius: 30px;
+    border: none;
+    font-family: $source;
+  }
+  .btn-success:hover{
+    background-color:  #f27b21;
   }
 }
