@@ -134,30 +134,59 @@ $playfair: "playfair display";
     float: left;
   }
   .details-card {
-    float: left;
-    padding: 0;
+    padding: 20px;
+
     img {
-      padding: 0;
+      padding: 20px;
+      padding-bottom: 0;
       height: auto;
+      width: 350px;
       max-width: 100%;
     }
-    .what-you-get {
-      h5 {
+
+    .card-body {
+      padding-top: 0;
+      margin-bottom: 10px;
+
+      .card-title {
         font-family: $source;
       }
-      p {
+      .card-text {
         font-family: $source;
+      }
+      .mentor {
+        float: left;
+        img {
+          width: 100px;
+          height: auto;
+          padding: 0;
+          max-width: 100%;
+        }
       }
     }
   }
   .join-card {
-    float: right;
-    .card-title{
-        background-color: $purple;
-        min-height: 50px;
-        span{
-            font-family: $playfair;
+    height: 400px;
+    h5 {
+      font-family: $playfair;
+    }
+    ul {
+      li {
+        border: none;
+        span {
+          font-weight: bold;
         }
+      }
+    }
+    .btn {
+      background-color: $orange;
+      font-family: $source;
+      border: 0;
+      font-size: 18px;
+      border-radius: 30px;
+    }
+    .btn:hover{
+      background-color: #F27B21;
     }
   }
 }
